@@ -1,0 +1,32 @@
+{
+  "name": "manthursday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server/main.js",
+  "scripts": {
+    "start": "gulp && node dist/server/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Holloway",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "del": "^2.0.2",
+    "exorcist": "^0.4.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-babel": "^5.2.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "handlebars": "^4.0.4",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  }
+}
